@@ -1,0 +1,78 @@
+{
+  "sample_count": 30,
+  "baseline": {
+    "accuracy": 0.9333,
+    "error_count": 2,
+    "per_class": {
+      "其他": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "商品咨询": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "投诉建议": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.75
+      },
+      "物流查询": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "账号问题": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "退款退货": {
+        "precision": 0.7778,
+        "recall": 1.0,
+        "f1": 0.875
+      }
+    }
+  },
+  "improved": {
+    "accuracy": 1.0,
+    "error_count": 0,
+    "per_class": {
+      "其他": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "商品咨询": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "投诉建议": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "物流查询": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "账号问题": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "退款退货": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "delta_accuracy": 0.0667,
+  "improvements": 2,
+  "regressions": 0
+}
