@@ -23,7 +23,7 @@
 
 ├── evaluate.py                # 准确率评估脚本（对比 old/ new）
 
-├── task1_prompt               # 重构后的 System Prompt
+├── task1_prompt.md               # 重构后的 System Prompt
 
 ├── task1_test_samples.json    # 30 条标注样本（含 label 字段）
 
@@ -71,9 +71,7 @@
 | 辱骂无分级 | "含投诉内容→投诉建议 / 纯辱骂→其他" |
 | 输出格式自由 | 强制 `{"category": "..."}` + `response_format={"type":"json_object"}` |
 
-> 💡 DeepSeek 官方要求：Prompt 含 "json" 字样 + `response_format` + 合理 `max_tokens`，否则有概率返回空 content。
-
-完整 Prompt 见 `prompts/classification_prompt_v2.md`。
+完整 Prompt 见 `task1_prompt.md`。
 
 ---
 
